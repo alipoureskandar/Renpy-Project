@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 25, in script
+    $ result = rhythm_game('audio/my-music.ogg', 'audio/my-music.beatmap.txt')
+  File "game/script.rpy", line 25, in <module>
+    $ result = rhythm_game('audio/my-music.ogg', 'audio/my-music.beatmap.txt')
+NameError: name 'rhythm_game' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 25, in script
+    $ result = rhythm_game('audio/my-music.ogg', 'audio/my-music.beatmap.txt')
+  File "D:\Users\ALI\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Users\ALI\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 25, in <module>
+    $ result = rhythm_game('audio/my-music.ogg', 'audio/my-music.beatmap.txt')
+NameError: name 'rhythm_game' is not defined
+
+Windows-10-10.0.18362 AMD64
+Ren'Py 8.3.7.25031702
+Minigame Tutorial 1.0
+Mon May 26 15:03:32 2025
